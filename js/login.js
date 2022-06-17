@@ -1,4 +1,5 @@
 const loginbtn = document.getElementById('loginBtn')
+const loginbtnmobile = document.getElementById('loginBtnMobile')
 const mymodal = document.getElementById('myModal')
 const closelogin = document.getElementById('closeLogin')
 const register = document.getElementById('register')
@@ -22,6 +23,7 @@ function closeRegister() {
 }
 
 loginbtn.addEventListener("click", showLogin)
+loginbtnmobile.addEventListener("click", showLogin)
 closelogin.addEventListener("click", closeLogin)
 
 register.addEventListener("click", showRegister)
